@@ -12,7 +12,7 @@ import com.google.common.base.Strings;
 
 public class NoChorusFruit extends JavaPlugin implements Listener {
 
-	String blockedMessage = "";
+	String blockedMessage;
 
 	@Override
 	public void onEnable() {
