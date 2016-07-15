@@ -11,8 +11,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import com.google.common.base.Strings;
 
 public class NoChorusFruit extends JavaPlugin implements Listener {
-
-	String blockedMessage;
+	private	String blockedMessage;
 
 	@Override
 	public void onEnable() {
